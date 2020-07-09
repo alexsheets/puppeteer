@@ -23,7 +23,7 @@ import { Frame } from './FrameManager';
 import Protocol from '../protocol';
 import { EvaluateHandleFn, SerializableOrJSHandle } from './EvalTypes';
 
-export const EVALUATION_SCRIPT_URL = '__puppeteer_evaluation_script__';
+export const EVALUATION_SCRIPT_URL = '__evaluation_script__';
 const SOURCE_URL_REGEX = /^[\040\t]*\/\/[@#] sourceURL=\s*(\S*?)\s*$/m;
 
 /**
